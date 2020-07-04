@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": "https://github.com/jsbites/nodejs-jumpstart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsbites/nodejs-jumpstart"
+  },
   "keywords": [
     "byte-sized javascript",
     "byte-sized",
@@ -26,10 +29,10 @@
     "videocast",
     "videos"
   ],
-  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsbites/nodejs-jumpstart/issues"
   },
-  "homepage": "https://bytesized.tv/"  
+  "homepage": "https://bytesized.tv/",
+  "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
+  "license": "MIT"
 }
